@@ -76,6 +76,7 @@ namespace ToDoList
                 checkBox1.ForeColor = Color.FromArgb(252, 252, 252);
                 textBox1.ForeColor = Color.White;
                 checkedListBox1.ForeColor = Color.White;
+                label1.ForeColor = Color.White;
 
             }
             else if (!checkBox1.Checked)
@@ -87,6 +88,7 @@ namespace ToDoList
                 checkBox1.ForeColor = Color.Black;
                 textBox1.ForeColor = Color.Black;
                 checkedListBox1.ForeColor = Color.Black;
+                label1.ForeColor = Color.White;
 
             }
         }

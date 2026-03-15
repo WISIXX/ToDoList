@@ -32,6 +32,7 @@
             checkedListBox1 = new CheckedListBox();
             button1 = new Button();
             checkBox1 = new CheckBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -78,6 +79,15 @@
             checkBox1.CheckedChanged += checkBox1_CheckedChanged_1;
             checkBox1.Click += checkBox1_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            label1.Location = new Point(371, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(108, 30);
+            label1.TabIndex = 4;
+            label1.Text = "to-do list";
             // 
             // Form1
             // 
@@ -85,6 +95,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(checkBox1);
             Controls.Add(button1);
             Controls.Add(checkedListBox1);
@@ -102,5 +113,6 @@
         private CheckedListBox checkedListBox1;
         private Button button1;
         private CheckBox checkBox1;
+        private Label label1;
     }
 }
