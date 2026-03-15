@@ -88,7 +88,7 @@ namespace ToDoList
                 checkBox1.ForeColor = Color.Black;
                 textBox1.ForeColor = Color.Black;
                 checkedListBox1.ForeColor = Color.Black;
-                label1.ForeColor = Color.White;
+                label1.ForeColor = Color.Black;
 
             }
         }
